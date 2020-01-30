@@ -10,6 +10,14 @@
   </head>
 
   <body>
-    <%= yield %>
+    <nav class="nav nav-pills flex-column flex-sm-row">
+      <a class="flex-sm-fill text-sm-center nav-link active" href="#">Home</a>
+      <a class="flex-sm-fill text-sm-center nav-link" href="#">Login</a>
+      <a class="flex-sm-fill text-sm-center nav-link" href="#">Logout</a>
+    </nav>
+    <div class="container">
+
+      <%= yield %>
+    </div>
   </body>
 </html>
